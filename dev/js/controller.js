@@ -4,4 +4,6 @@ angular.module("app").controller("ctrl", function($scope, service){
 
     $scope.germData = service.getGerms();
     
+    $scope.doSomething = () => 7;
+    
 });
